@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"bernardo1r/password"
-	"bernardo1r/password/internal/check"
+	"github.com/bernardo1r/password"
+	"github.com/bernardo1r/password/internal/check"
 )
 
 func main() {

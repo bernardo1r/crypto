@@ -1,4 +1,4 @@
-module bernardo1r/password
+module github.com/bernardo1r/password
 
 go 1.19
 
