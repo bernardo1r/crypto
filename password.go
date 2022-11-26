@@ -1,10 +1,11 @@
-package password
+package crypto
 
 import (
 	"fmt"
-	"golang.org/x/term"
 	"os"
 	"os/signal"
+
+	"golang.org/x/term"
 )
 
 func ReadStdin() (pass []byte, err error) {

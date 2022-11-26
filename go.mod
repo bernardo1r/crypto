@@ -1,8 +1,8 @@
-module github.com/bernardo1r/password
+module github.com/bernardo1r/crypto
 
 go 1.19
 
 require (
-	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
-	golang.org/x/term v0.0.0-20220919170432-7a66f970e087 // indirect
+	golang.org/x/sys v0.2.0 // indirect
+	golang.org/x/term v0.2.0
 )
