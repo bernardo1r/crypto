@@ -6,8 +6,8 @@ import (
 )
 
 func Pad(data *[]byte, n uint8) []byte {
-	padLen := int(n) - (len(*data) % int(n))
-	*data = append(*data, bytes.Repeat([]byte{byte(padLen)}, padLen)...)
+	pad := int(n) - (len(*data) % int(n))
+	*data = append(*data, bytes.Repeat([]byte{byte(pad)}, pad)...)
 	return *data
 }
 
